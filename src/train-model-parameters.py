@@ -84,7 +84,7 @@ def eval_model(model, X_test, y_test):
 
 def parse_args():
     # setup arg parser
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser("Branch protection rule")
 
     # add arguments
     parser.add_argument("--training_data", dest='training_data',
